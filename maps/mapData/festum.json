@@ -1,0 +1,31 @@
+{
+	"name": "Festum",
+	"type": "city",
+	"player_start_position": [1, 1],
+	"npc_data": [		
+		{
+			"name": "lora",
+			"position": [5, 5]
+		}
+	],
+	"map_connection_data": [
+		{
+			"name": "paws",
+			"position": [10, 7]
+		},
+		{
+			"name": "britain",
+			"position": [11, 2]
+		}
+	],
+	"doors": [
+		{
+			"name": "doorA",
+			"position": [4, 6]			
+		},{
+			"name": "doorB",
+			"position": [10, 2]			
+		}
+		
+	]
+}

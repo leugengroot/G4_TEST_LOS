@@ -1,0 +1,24 @@
+{
+	"name": "Bornland",
+	"type": "region",
+	"player_start_position": [],
+	"npc_data": [	
+	],
+	"map_connection_data": [
+		{
+			"name": "festum",
+			"position": [
+				2,
+				3
+			]
+		},
+		{
+			"name": "britain",
+			"position": [
+				11,
+				2
+			]
+		}
+	],
+	"doors": []
+}

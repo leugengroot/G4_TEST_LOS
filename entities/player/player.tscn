@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://bn6gbn2hb4h1o"]
+
+[ext_resource type="PackedScene" uid="uid://cwqigm5qypxk3" path="res://entities/playerTemplate.tscn" id="1_f5vy4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_sggx8"]
+size = Vector2(16, 16)
+
+[node name="Player" instance=ExtResource("1_f5vy4")]
+
+[node name="LosRayCast" parent="." index="2"]
+target_position = Vector2(2.08165e-12, 50)
+collide_with_areas = true
+
+[node name="CollisionShape2D" parent="." index="3"]
+shape = SubResource("RectangleShape2D_sggx8")

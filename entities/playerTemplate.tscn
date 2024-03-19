@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://cwqigm5qypxk3"]
+
+[ext_resource type="Script" path="res://entities/Player.cs" id="1_vclxs"]
+[ext_resource type="Texture2D" uid="uid://qjxjidvy85rk" path="res://assets/entities/player/player.png" id="2_hwouu"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ouotb"]
+
+[node name="PlayerTemplate" type="Area2D"]
+script = ExtResource("1_vclxs")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_hwouu")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(4, 4)
+
+[node name="LosRayCast" type="RayCast2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_ouotb")
+
+[node name="CollisionRayCast" type="RayCast2D" parent="."]
+collide_with_areas = true
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+visible = false

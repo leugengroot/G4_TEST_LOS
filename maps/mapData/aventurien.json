@@ -1,0 +1,38 @@
+{
+	"name": "Aventurien",
+	"player_start_position": [],
+	"npc_data": [
+		{
+			"name": "sam",
+			"position": [
+				8,
+				8
+			]
+		},				
+		{
+			"name": "lora",
+			"position": [
+				10,
+				10	
+			]
+		}
+	],
+	"map_connection_data": [
+		{
+			"name": "festum",
+			"position": [
+				6,
+				1
+			]
+		},
+		{
+			"name": "britain",
+			"position": [
+				11,
+				2
+			]
+		}
+	],
+	"doors": [	
+	]
+}

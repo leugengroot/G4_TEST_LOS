@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://d14s6mrkwjjjd"]
+
+[ext_resource type="Script" path="res://maps/map.cs" id="1_gckh6"]
+
+[node name="RegionTemplate" type="Node2D"]
+script = ExtResource("1_gckh6")
+
+[node name="GeoMap" type="TileMap" parent="."]
+format = 2
+
+[node name="VisMap" type="TileMap" parent="."]
+format = 2
+
+[node name="MapImage" type="Sprite2D" parent="."]
